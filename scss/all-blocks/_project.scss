@@ -1,0 +1,25 @@
+.project {
+   padding-bottom: 150px;
+}
+.project .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.project__heading {
+   width: 100%;
+   max-width: 350px;
+   line-height: 84%;
+   letter-spacing: -0.36px;
+}
+.project__link {
+   display: inline-block;
+   width: 100%;
+   max-width: 162px;
+   padding: 17px;
+   text-align: center;
+   text-decoration: none;
+   color: #33323D;
+   letter-spacing: 2px;
+   border: 1px solid #33323D;
+}
