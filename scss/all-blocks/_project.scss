@@ -9,7 +9,6 @@
 .project__heading {
    width: 100%;
    max-width: 350px;
-   line-height: 84%;
    letter-spacing: -0.36px;
 }
 .project__link {
@@ -22,4 +21,24 @@
    color: #33323D;
    letter-spacing: 2px;
    border: 1px solid #33323D;
+}
+@media only screen and (max-width: 768px){
+   .project {
+      padding-bottom: 96px;
+   }
+}
+@media only screen and (max-width: 550px) {
+   .project .container {
+     flex-direction: column;
+   }
+   .project__heading {
+      margin-bottom: 40px;
+   }
+}
+@media only screen and (max-width: 425px) {
+   .project__heading {
+      width: 100%;
+      max-width: 311px;
+      text-align: center;
+   }
 }

@@ -34,3 +34,51 @@
 .footer__social-icon:hover {
    background-color: #FDD6BA;
 }
+@media only screen and (max-width: 768px) {
+   .footer .nav {
+      margin-left: 30px;
+   }
+   .nav__item-footer + .nav__item-footer {
+     margin-left: 30px;
+}
+}
+@media only screen and (max-width: 600px) {
+   .footer .nav {
+      margin-left: 15px;
+   }
+   .nav__item-footer + .nav__item-footer {
+     margin-left: 15px;
+}
+}
+@media only screen and (max-width: 550px) {
+   .footer .container {
+     flex-direction: column;
+   }
+   .footer__left {
+      flex-direction: column;
+      margin-bottom: 40px;
+   }
+   .footer__logo {
+      margin-bottom: 40px;
+   }
+   .footer .nav {
+      margin-left: 0px;
+   }
+}
+@media only screen and (max-width: 425px) {
+   .nav-footer {
+      display: block;
+   }
+   .footer .nav {
+      margin-left: 0px;
+   }
+	 .nav__list {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.nav__item + .nav__item {
+		margin-left: 0;
+		margin-top: 32px;
+	}
+}
