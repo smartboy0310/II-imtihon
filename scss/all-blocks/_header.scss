@@ -59,7 +59,7 @@
 	}
 
 	.header--open .nav {
-		position: absolute;
+		position: fixed;
 		z-index: 100;
 		top: 110px;
 		right: 0;
